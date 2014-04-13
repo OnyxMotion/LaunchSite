@@ -1,0 +1,90 @@
+<div class="row-fluid" id="signup" padding="0px">
+
+<div class="jumbotron banner"  style="background-image: url('/images/hero/filler.jpg')">
+    <div ng-show="signup" class="container">
+    <div class="jumbotron-caption">
+
+      <!-- Buy Now -->
+      <h1 style="padding:10px;"> Thanks for hitting us up.</h1>
+
+      <h3 style="padding:50px;">We're building some digital coaches. If you want a heads up at launch, let us know.</h3>
+
+<!-- <div id="container">
+    <form name="appForm" novalidate class="app-form">
+      <div class="row">
+
+    <div class="col-md-2 col-md-offset-3">
+    <label>First Name</label> : <input type="text" name="firstName" ng-model="user.firstName" required>
+    <span ng-show="appForm.firstName.$dirty && appForm.firstName.$error.required"><br><h6>Required field. <br> (It helps us add that personal startup touch you love.)</h6></span>
+  </div>
+
+
+    <div class="col-md-2 col-md-offset-1">
+    <label>Email</label> : <input type="email" name="email" ng-model="user.email" required>
+    <span ng-show="appForm.email.$dirty && appForm.email.$error.required"><h6>Required field. <br>(You miss 100% of the shots you don't take.)</h6></span>
+    <span ng-show="appForm.email.$dirty && appForm.email.$error.email"><h6>Your email address is invalid.  (See?  We're helping already)</h6></span>
+    </div>
+
+  </div>
+ -->
+
+<!-- Begin MailChimp Signup Form -->
+<!-- <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css"> -->
+<style type="text/css">
+          #mc_embed_signup{background:transparent; clear:left; font:20px Helvetica,Arial,sans-serif; }
+          /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+             We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+        </style>
+        <div id="mc_embed_signup">
+        <form action="http://onyxmotion.us8.list-manage.com/subscribe/post?u=1f849069c3254cfa3d6ca050a&amp;id=fe937a6f51" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          
+          <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="all-star@onyxmotion.com" required>
+
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;"><input type="text" name="b_1f849069c3254cfa3d6ca050a_fe937a6f51" value=""></div>
+
+            <h4> <br> </h4>
+
+          <div style="margin-left:-55px"class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary btn-lg"></div>
+        </form> <!-- end form -->
+</div> <!-- end signup form -->
+
+
+
+
+<!-- 
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-primary btn-lg" ng-click="save()">Sign Up</button>
+                        </div> <!--End Signup Button--> 
+
+
+    </form>
+    <div ng-show="master">{{master | json}}</div>
+</div>
+
+      <h6 align="center"> Would a good coach send spam or share your email? No. We won't either.</h6>
+
+    </div>
+  </div><!--sign up container-->
+
+
+
+    <div ng-hide="signup" class="container">
+    <div class="jumbotron-caption">
+
+      <!-- Buy Now -->
+      <h1 style="padding:100px;"> Thanks.  <br><small>You're already an all-star to us.</small></h1>
+
+      
+    </div>
+  </div><!--thank you container-->
+
+
+
+</div><!--jumbotron-->
+</div> <!--row-->
+
+
+
+
+
