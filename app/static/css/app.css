@@ -34,6 +34,60 @@ overflow-x: hidden;
 
 
 
+/*All Pages*/
+
+
+
+.list-group{
+
+	padding: 100px 0px 0px 100px;
+
+}
+
+a.list-group-item.active,  
+a.list-group-item.active:hover,  
+a.list-group-item.active:focus {  
+  z-index: 2;  
+  color: #ffffff;  
+  background-color: #000000;  
+  border-color: #ffffff;  
+}  
+
+#mainText{
+
+	padding: 100px 0px 0px 100px;
+}
+
+.blackRow{
+
+	background-color:#000000;
+	color:#ffffff;
+
+}
+
+.blackRow h2 {
+	color:#FFC400;
+}
+
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
  /* MailChimp Form Embed Code - Slim - 08/17/2011 */
 #mc_embed_signup form {display:block; position:relative; text-align:centre; padding: 10px 0 10px 7%;}
 #mc_embed_signup h2 {font-weight:bold; padding:0; margin:15px 0; font-size:1.4em;}

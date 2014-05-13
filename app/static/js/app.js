@@ -7,11 +7,22 @@ angular.module('LaunchSite', ['ngResource', 'ngRoute', 'ui.bootstrap', 'ui.date'
         controller: 'HomeController'})
 
 
-            .when('/preorder', {
+      .when('/preorder', {
         templateUrl: 'views/preorder.html', 
         controller: 'PreSignupCtrl'})
 
+      .when('/privacy', {
+        templateUrl: 'views/privacy.html', 
+        controller: 'PreSignupCtrl'})
 
+
+            .when('/about', {
+        templateUrl: 'views/about.html', 
+        controller: 'PreSignupCtrl'})
+
+            .when('/terms', {
+        templateUrl: 'views/terms.html', 
+        controller: 'PreSignupCtrl'})
 
       .otherwise({redirectTo: '/'});
 
