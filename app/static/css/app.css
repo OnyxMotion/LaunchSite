@@ -1,6 +1,7 @@
 #body {
 /*  padding: 10px;*/
 overflow-x: hidden;
+background-color: #000000;
 }
 
 
@@ -32,9 +33,6 @@ overflow-x: hidden;
   margin-left: 8%;
 }
 
-
-
-/*All Pages*/
 
 
 
@@ -84,6 +82,27 @@ a.list-group-item.active:focus {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+ol li {
+
+	color:#ffc400;
+	font-size:200%;
+}
+
+ol h4 {
+	font-weight: 300;
+}
+
+
+.likeImage{
+    width: 275px;
+    height: 95px;
+    background-image: url("http://yaaya.mobi/images/fbLike.png");
+    background-repeat: no-repeat;
+}
+.likeImage iframe{
+    opacity: 0;
 }
 
 

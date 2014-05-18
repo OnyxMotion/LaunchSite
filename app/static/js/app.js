@@ -25,9 +25,15 @@ angular.module('LaunchSite', ['ngResource', 'ngRoute', 'ui.bootstrap', 'ui.date'
         controller: 'PreSignupCtrl'})
 
 
-                    .when('/contactus', {
-        templateUrl: 'views/contact.html', 
+                    .when('/holla', {
+        templateUrl: 'views/contactus.html', 
         controller: 'PreSignupCtrl'})
+
+
+                    .when('/FAQ', {
+        templateUrl: 'views/FAQ.html', 
+        controller: 'PreSignupCtrl'})
+
 
 
       .otherwise({redirectTo: '/'});
