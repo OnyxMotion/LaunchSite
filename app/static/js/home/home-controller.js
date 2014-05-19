@@ -8,6 +8,8 @@
          $scope.signup = false;
        	console.log ($scope.signup);
          $scope.master = angular.copy($scope.user);
+
+         $analytics.eventTrack('MailSubscribeHomePage', {  category: 'MailSubscribe', label: 'HomePage' });
         //console.log= "hello"
         
     };
