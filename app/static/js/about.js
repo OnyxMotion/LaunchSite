@@ -1,7 +1,7 @@
-angular.module('LaunchSite')
-  .controller('AboutCtrl', function ($analytics) {
+'use strict';
 
+angular.module('LaunchSite')
+  .controller('AboutCtrl', function AboutCtrl($analytics) {
 
         $analytics.pageTrack('/#/about');
-
-  }]);
+});
