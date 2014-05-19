@@ -9,6 +9,10 @@ angular.module('LaunchSite')
        	console.log ($scope.signup);
         $scope.master = angular.copy($scope.user);
         //console.log= "hello"
+
+        $('#button').on('click', function() {
+			  ga('send', 'event', 'button', 'click', 'nav-buttons');
+			});
        
     };
 

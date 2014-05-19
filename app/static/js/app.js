@@ -1,5 +1,5 @@
 // Declare app level module which depends on filters, and services
-angular.module('LaunchSite', ['ngResource', 'ngRoute', 'ui.bootstrap', 'ui.date'])
+angular.module('LaunchSite', ['angulartics','angulartics.google.analytics', 'ngResource', 'ngRoute', 'ui.bootstrap', 'ui.date'])
   .config(['$routeProvider', function ($routeProvider) {
     $routeProvider
       .when('/', {
