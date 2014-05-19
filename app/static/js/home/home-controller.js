@@ -1,5 +1,5 @@
 angular.module('LaunchSite')
-  .controller('HomeController', ['$scope', function ($scope) {
+  .controller('HomeController', ['$scope', function ($scope, $analytics) {
 
     $scope.signup = true;
 
@@ -10,9 +10,7 @@ angular.module('LaunchSite')
         $scope.master = angular.copy($scope.user);
         //console.log= "hello"
 
-        $('#button').on('click', function() {
-			  ga('send', 'event', 'button', 'click', 'nav-buttons');
-			});
+        $analytics.pageTrack('/#/home');
        
     };
 

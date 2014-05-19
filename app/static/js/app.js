@@ -18,7 +18,7 @@ angular.module('LaunchSite', ['angulartics','angulartics.google.analytics', 'ngR
 
             .when('/about', {
         templateUrl: 'views/about.html', 
-        controller: 'PreSignupCtrl'})
+        controller: 'AboutCtrl'})
 
             .when('/terms', {
         templateUrl: 'views/terms.html', 
