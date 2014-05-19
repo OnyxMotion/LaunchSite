@@ -32,7 +32,7 @@ angular.module('LaunchSite', ['angulartics','angulartics.google.analytics', 'ngR
 
                     .when('/FAQ', {
         templateUrl: 'views/FAQ.html', 
-        controller: 'PreSignupCtrl'})
+        controller: 'FAQCtrl'})
 
 
 
