@@ -10,8 +10,10 @@ angular.module('LaunchSite')
         $scope.master = angular.copy($scope.user);
         //console.log= "hello"
 
-        $analytics.pageTrack('/#/home');
+      
        
     };
+
+      $analytics.pageTrack('/#/home');
 
   }]);

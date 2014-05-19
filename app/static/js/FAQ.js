@@ -3,7 +3,6 @@ angular.module('LaunchSite')
 
 
         $analytics.pageTrack('/#/FAQ');
-       
-    };
+ 
 
   }]);

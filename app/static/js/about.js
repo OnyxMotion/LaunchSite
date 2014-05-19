@@ -3,7 +3,5 @@ angular.module('LaunchSite')
 
 
         $analytics.pageTrack('/#/about');
-       
-    };
 
   }]);
