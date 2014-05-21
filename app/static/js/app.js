@@ -18,7 +18,7 @@ angular.module('LaunchSite', ['angulartics','angulartics.google.analytics', 'ngR
 
             .when('/about', {
         templateUrl: 'views/about.html', 
-        controller: 'AboutCtrl'})
+        controller: 'PreSignupCtrl'})
 
             .when('/terms', {
         templateUrl: 'views/terms.html', 
@@ -32,7 +32,12 @@ angular.module('LaunchSite', ['angulartics','angulartics.google.analytics', 'ngR
 
                     .when('/FAQ', {
         templateUrl: 'views/FAQ.html', 
-        controller: 'FAQCtrl'})
+        controller: 'PreSignupCtrl'})
+
+
+        .when('/parents', {
+        templateUrl: 'views/parents.html', 
+        controller: 'PreSignupCtrl'})
 
 
 
