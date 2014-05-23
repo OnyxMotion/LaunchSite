@@ -40,6 +40,25 @@ angular.module('LaunchSite', ['angulartics','angulartics.google.analytics', 'ngR
         controller: 'PreSignupCtrl'})
 
 
+        .when('/varsity', {
+        templateUrl: 'views/varsity.html', 
+        controller: 'PreSignupCtrl'})
+
+                .when('/varsity', {
+        templateUrl: 'views/varsity.html', 
+        controller: 'PreSignupCtrl'})
+
+                        .when('/golf', {
+        templateUrl: 'views/golf.html', 
+        controller: 'PreSignupCtrl'})
+
+       .when('/technology', {
+        templateUrl: 'views/technology.html', 
+        controller: 'PreSignupCtrl'})
+
+
+
+
 
       .otherwise({redirectTo: '/'});
 
