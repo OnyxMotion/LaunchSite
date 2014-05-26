@@ -13,5 +13,12 @@
         //console.log= "hello"
         
     };
- 
+
+
+            $(document).ready(function(){
+        $("#body").onepage_scroll({
+        sectionContainer: "section"
+        });
+        });
+
     }]);
