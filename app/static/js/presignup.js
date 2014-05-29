@@ -14,12 +14,12 @@ angular.module('LaunchSite')
        
     };
 
-        $scope.$on('$viewContentLoaded', function() {
-        console.log("yo", $("#body section"));
-        $("#body").onepage_scroll({
-            sectionContainer: "section"
-        });
-    });
+    //     $scope.$on('$viewContentLoaded', function() {
+    //     console.log("yo", $("#body section"));
+    //     $("#body").onepage_scroll({
+    //         sectionContainer: "section"
+    //     });
+    // });
 
 
 });
