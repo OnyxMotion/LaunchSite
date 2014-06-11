@@ -56,7 +56,30 @@ angular.module('LaunchSite', ['angulartics','angulartics.google.analytics', 'ngR
         templateUrl: 'views/technology.html', 
         controller: 'PreSignupCtrl'})
 
+                               .when('/baseball', {
+        templateUrl: 'views/baseball.html', 
+        controller: 'PreSignupCtrl'})
 
+
+                                .when('/basketball', {
+        templateUrl: 'views/basketball.html', 
+        controller: 'PreSignupCtrl'})
+
+
+
+                        .when('/badminton', {
+        templateUrl: 'views/badminton.html', 
+        controller: 'PreSignupCtrl'})
+
+
+                               .when('/tennis', {
+        templateUrl: 'views/tennis.html', 
+        controller: 'PreSignupCtrl'})
+
+
+                                .when('/football', {
+        templateUrl: 'views/football.html', 
+        controller: 'PreSignupCtrl'})
 
 
 
