@@ -1,10 +1,10 @@
+<!--Engage Row-->
+<div ng-show="signup" class="row" id="engage" style="background-color:#000000;">
 
-
-<div  class="jumbotron banner"  style="background-color:#000;">
-    <div ng-show="signup"  class="jumbotron-caption">
+<div   class="jumbotron-caption">
 
       <!-- Buy Now -->
-      <h1 style="padding:10px;"> Thanks for hitting us up.</h1>
+      <h1 style="padding:10% 5% 2% 5%;"> Thanks for hitting us up.</h1>
       <h3 style="padding:50px;color:#e1e1e1;">We're building some digital coaches. If you want a heads up at launch, let us know.</h3>
 
 
@@ -14,7 +14,7 @@
           #mc_embed_signup{background:transparent; clear:left; font:20px Helvetica,Arial,sans-serif; }
           /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
              We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-        </style>
+</style>
 <div id="mc_embed_signup">
         <form action="http://onyxmotion.us8.list-manage.com/subscribe/post?u=1f849069c3254cfa3d6ca050a&amp;id=fe937a6f51" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
           
@@ -25,13 +25,12 @@
 
             <h4> <br> </h4>
 
-          <div style="margin-left:-55px"class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary btn-lg" ng-click="save()"></div>
+          <div style="margin-left:-10%"class="clear" ><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary btn-lg" ng-click="save()" analytics-on="click" analytics-event="Subscribe"></div>
         </form> <!-- end form -->
-</div> <!-- end SurveyMonkey signup form -->
+</div> <!-- end MailChimp signup form -->
 
 
 
-    </form>
     <div ng-show="master">{{master | json}}</div> <!-- I dunno -->
 
 
@@ -39,12 +38,11 @@
 
 </div> <!-- Jumbotron Caption -->
 
+</div> <!-- First Page of Engage Row -->
 
 
-
-    <div ng-hide="signup" class="row">
-    <div class="jumbotron-caption">
-
+<div  class="row" id="thankyou" style="background-color:#000000; padding-bottom:10%;">
+    <div ng-hide="signup" class="jumbotron-caption">
 
       <div class="row">
 
@@ -52,14 +50,14 @@
       <!-- Buy Now -->
       <h1 style="padding:5% 0 5% 0;"> Thanks.  <br><small>You're already an all-star to us.</small></h1>
 
-      <h4> Seriously, you must be ahead of the curve.  It's not like we're a Fortune 500.  We'd appreciate it if you took a minute to spread some of that early-adopter love to your friends.  </h4>
+      <h4> Seriously, you must be ahead of the curve.  We'd appreciate it if you took a minute to spread some of that early-adopter love to your friends.  </h4>
 <br>
       <h4> The Onyx Motion Team (James, Kelvin, Marissa and Vivek) </h4>
 
     </div>
   </div> <!-- Banner Text Row
  -->
-      <div class="row no-gutter" style="padding:5% 0 0 5%">
+            <div class="row no-gutter" style="padding:5% 0 0 5%">
 
           <div class="col-md-1 col-md-offset-4">
 
@@ -86,16 +84,7 @@
 
       </div>
 
+
       
     </div> <!-- Jumbotron Caption -->
-  </div><!--thank you container-->
-
-
-
-</div> <!-- Jumbotron Banner -->
-
-
-
-
-
-
+</div><!--Thank You Page of Engage Row-->
