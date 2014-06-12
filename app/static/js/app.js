@@ -11,6 +11,12 @@ angular.module('LaunchSite', ['angulartics','angulartics.google.analytics', 'ngR
         templateUrl: 'views/preorder.html', 
         controller: 'PreSignupCtrl'})
 
+
+      .when('/subscribe', {
+        templateUrl: 'views/preorder.html', 
+        controller: 'PreSignupCtrl'})
+
+
       .when('/privacy', {
         templateUrl: 'views/privacy.html', 
         controller: 'PreSignupCtrl'})
